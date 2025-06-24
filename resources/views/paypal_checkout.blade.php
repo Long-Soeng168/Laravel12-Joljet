@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://assets.edlin.app/bootstrap/v5.3/bootstrap.css">
 
-  <script src="https://www.paypal.com/sdk/js?client-id={{config('paypal.client_id')}}&currency=GBP&intent=capture"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id={{config('paypal.client_id')}}&currency=USD&intent=capture"></script>
 
   <!-- Title -->
   <title>PayPal Pay</title>
