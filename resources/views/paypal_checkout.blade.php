@@ -134,9 +134,9 @@
         <img src="${imageUrl}" alt="" style="width: 3.5rem; height: 3.5rem; object-fit: cover; border-radius: 0.375rem;">
         <span>${item.name}</span>
     </td>
-    <td style="padding: 0.5rem; text-align: right;">£${parseFloat(item.price).toFixed(2)}</td>
+    <td style="padding: 0.5rem; text-align: right;">$${parseFloat(item.price).toFixed(2)}</td>
     <td style="padding: 0.5rem; text-align: center;">${item.cartQuantity}</td>
-    <td style="padding: 0.5rem; text-align: right;">£${(item.price * item.cartQuantity).toFixed(2)}</td>
+    <td style="padding: 0.5rem; text-align: right;">$${(item.price * item.cartQuantity).toFixed(2)}</td>
 `;
 
 
@@ -144,7 +144,7 @@
             total += item.price * item.cartQuantity;
           });
 
-          totalElement.textContent = `£${total.toFixed(2)}`;
+          totalElement.textContent = `$${total.toFixed(2)}`;
         });
       </script>
 
